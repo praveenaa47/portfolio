@@ -1,0 +1,250 @@
+*{
+    font-family: "Teko", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: transparent;
+    height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ position: sticky;
+ top: 0;
+ z-index: 1;
+
+}
+
+nav ul{
+    display: flex;
+
+}
+
+nav ul li a{
+    color: crimson;
+    font-weight: bolder;
+    margin: 20px;
+    text-decoration: none;
+}
+
+video{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.overlay{
+    
+    position: absolute;
+    top: 60%;
+    left:70% ;
+    color: chartreuse;
+
+}
+h1:hover{
+    text-shadow:2px 4px 6px cornsilk ;
+    
+}
+
+span{
+    color: darkmagenta;
+    font-size: 45px;
+   
+}
+
+#home::before{
+    height: 100%;
+   content: "";
+    background-image: url(https://images.creativemarket.com/0.1.0/ps/1068169/6250/6250/m1/fpnw/wm0/programming-.jpg?1457490303&s=525e71dae5c577b611a1b5499c6eaa5e);
+    background-size: cover;
+}
+
+#home{
+    
+    display: flex;
+   flex-direction: column;
+   height: 800px;
+}
+
+.main{
+    display: flex;
+    position: absolute;
+    border: 3px ridge blueviolet;
+    padding: 20px;
+    height: 100px;
+    margin-top: 5%;
+    left: 40%;
+    box-shadow: 2px 4px 6px white;
+
+}
+
+.main:hover{
+    scale: 1.05;
+    background-color: coral;
+}
+  
+.pic{
+    display: flex;
+
+}
+
+.pic img{
+    width: 400px;
+}
+
+.pic h4{
+    text-align: center;
+    color: crimson;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.pic p{
+    text-align: justify;
+    padding: 10px;
+    font-style: italic;
+
+}
+
+h3{
+    text-align: center;
+    background-color: cornsilk;
+    color: darkblue;
+    margin-top: 5px;
+}
+
+.gallery{
+    border: 3px inset black;
+    margin: 5px;
+    box-shadow: 2px 4px 6px white;
+
+}
+.gallery img{
+    width: 450px;
+    margin-left: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.gallery img:hover{
+    box-shadow: 2px 4px 6px brown;
+    scale: 1.06;
+
+}
+
+.row{
+    background-color:lightpink;
+    display: flex;
+    height: 700px;
+}
+
+.box{
+    border: 2px inset purple;
+    height: 600px;
+    margin:10px ;
+    padding:10px ;
+    background: linear-gradient(to top,rgb(236, 236, 140)50%,rgb(167, 167, 230)50%);
+    background-size: 100% 200%;
+    transition: all 0.6s;
+    
+
+}
+
+.box:hover{
+    background-position: right bottom;
+}
+
+.box img{
+    width: 100%;
+}
+    
+
+.box img:hover{
+    scale: 1.06;
+    cursor: pointer;
+
+}
+
+.box h5{
+    margin-top: 10px;
+    color: brown;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.box h5:hover{
+    text-decoration: underline;
+}
+
+.box p{
+    text-align: justify;
+    font-style: inherit;
+}
+
+form{
+    width: 500px;
+    margin-left: 500px;
+
+
+
+}
+
+.input{
+    width: 100%;
+    margin: 10px;
+}
+
+button{
+    color: azure;
+    background-color: green;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.cv{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 60%;
+    border-radius: 20%;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  footer p{
+    color: rgb(80, 78, 75);
+    display: flex;
+    justify-content: center;
+    cursor:pointer;
+    margin: 5px;
+    
+
+  }
+
+  footer{
+    background-color: brown;
+  }
+
+  footer h4{
+    text-align: center;
+  }
